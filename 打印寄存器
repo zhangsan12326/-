@@ -1,0 +1,3 @@
+  else if (strcmp(arg,"r") == 0) {
+    isa_reg_display();
+  }
