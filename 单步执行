@@ -1,0 +1,2 @@
+cpu_exec(N);
+  printf("Step excute N=%s\n",arg);
