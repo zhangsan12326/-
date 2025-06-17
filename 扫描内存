@@ -1,0 +1,5 @@
+static int i;
+    for(i=0;i<len;i++){
+    printf("%lx:%08lx\n",addr,paddr_read(addr,4));
+    addr += 4;
+}
