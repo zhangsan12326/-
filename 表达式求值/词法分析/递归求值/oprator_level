@@ -1,0 +1,13 @@
+int oprator_level(int op_type){
+  switch(op_type){
+    case '+': return 1;
+    case '-': return 1;
+    case '*': return 2;
+    case '/': return 2;
+    case TK_NEG: return 3;
+    case TK_DEREF: return 3;
+    default:  
+      printf("Undefine oprator\n");
+      assert(0);
+  }
+}
